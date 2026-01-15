@@ -1,0 +1,56 @@
+* {margin:0}
+* {padding:0}
+header{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    align-items: center;
+    gap: 10px;
+    text-align: end;
+    margin: 0;
+
+}
+
+header a{
+    color: white;
+    margin: 10px;
+}
+
+.logo{
+    border: 5px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;    
+}
+
+main{
+margin: 20px;
+color: rgb(0, 0, 0);
+padding: 6px
+}
+
+.heading{
+color: lightblue;
+text-align: center;
+border-bottom: solid lightblue 2px;
+padding: 6px
+}
+
+.picture{
+    margin: 15px;
+    display: grid;
+    place-items: center;
+}
+
+footer{
+    padding: 10px;
+    background-color: lightblue;
+    color: rgb(44, 87, 167);
+    text-align: center;
+    font-size: large;
+}
+
+

@@ -1,0 +1,85 @@
+* {margin:0}
+* {padding:0}
+
+header{
+    background-color: oklab(84.441% -0.09495 -0.03783);
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    text-align: end;
+    gap: 10px;
+    align-items: center;
+    margin: 0;
+    box-shadow: 3px 3px 10px rgb(205, 200, 200);
+    padding: 6px;
+    /* Important */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header a{
+    color: black;
+    margin:7px
+}
+
+header a:hover{
+    color: white
+}
+
+.logo{
+    color: black;
+    font-size: 20px;
+    border: 5px solid black;
+    padding: 6px;
+    text-align: center;
+    margin: 7px;
+}
+
+main{
+    margin: 20px;
+}
+
+.title{
+    text-align: center;
+    border-bottom: solid 3px rgb(135, 225, 255);
+    color: rgb(135, 225, 255);
+    padding: 3px;
+    margin: 10px;
+}
+
+.picture{
+    display: grid; 
+    place-items: center;
+    margin: 15px;
+}
+
+.boxes{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;  
+    padding: 20px;
+    margin: 20px;
+}
+
+.small-box{
+    text-align: center;
+    padding: 7px;
+    box-shadow: 3px 3px 5px rgb(205, 200, 200);
+    border-radius: 5px;
+    background-color: rgb(135, 225, 255)
+}
+
+.btn{
+    text-align: center;
+    display: block;
+    margin: 10px;
+    background-color: #fff;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+footer{
+    padding: 10px;
+    background-color: rgb(135, 225, 255);
+    text-align: center;
+}
